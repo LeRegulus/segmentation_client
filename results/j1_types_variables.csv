@@ -1,0 +1,22 @@
+variable,dtype,n_modalites,nature
+age,int64,78,continue (entière)
+job,object,12,nominale
+marital,object,4,nominale
+education,object,8,ordinale
+default,object,3,binaire (+unknown)
+housing,object,3,binaire (+unknown)
+loan,object,3,binaire (+unknown)
+contact,object,2,binaire
+month,object,10,nominale (calendrier)
+day_of_week,object,5,nominale (calendrier)
+duration,int64,1544,continue (entière)
+campaign,int64,42,discrète
+pdays,int64,27,discrète (999 = jamais)
+previous,int64,8,discrète
+poutcome,object,3,nominale
+emp.var.rate,float64,10,continue
+cons.price.idx,float64,26,continue
+cons.conf.idx,float64,26,continue
+euribor3m,float64,316,continue
+nr.employed,float64,11,continue
+y,object,2,binaire (CIBLE)

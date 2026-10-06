@@ -1,0 +1,19 @@
+# Python 3.12 — versions utilisées pour l'exécution de référence
+numpy==2.4.4
+pandas==3.0.2
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+# scikit-learn-extra : la version PyPI (0.3.0) n'est pas compatible numpy 2 → version de développement GitHub
+scikit-learn-extra @ git+https://github.com/scikit-learn-contrib/scikit-learn-extra.git
+umap-learn==0.5.12
+kmodes==0.12.2
+gower==0.1.2
+matplotlib==3.10.8
+seaborn==0.13.2
+joblib==1.5.3
+streamlit==1.65.0
+jupyter
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0

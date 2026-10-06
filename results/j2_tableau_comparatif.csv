@@ -1,0 +1,5 @@
+méthode,représentation,distance,k,critère de k,silhouette (a),Davies-Bouldin (a),Dunn (a),silhouette native,taille min-max
+K-means,(a) one-hot + z,euclidienne,5,coude de l'inertie,0.14158226623011683,1.8540341982378314,0.022730088685386687,0.14158226623011683,569–1368
+K-medoids (PAM),(b) mixte,Gower,3,silhouette Gower max,0.058541405552545084,2.8913739187717127,0.03323834690864877,0.15754848067005933,1243–1418
+K-prototypes,(b) mixte,euclid. + γ·désaccord,5,coude du coût,0.13873898458443204,1.8770164539065188,0.006639422628890232,0.10159709166794005,318–1447
+GMM (full),PCA 80 %,Mahalanobis (probabiliste),6,coude du BIC,0.04657052224198682,2.788536189032344,0.026356370365281857,0.04657052224198682,296–1493
